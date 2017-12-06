@@ -16,7 +16,8 @@ v = 0.3
 #calculated parameters
 A = 2 * pi * R *t1
 I = pi*(R**3)*t1
-L = 1.5
+sphere = (4/3)*pi*(R**3)
+L = 2*R + (vol-sphere)/(pi*(R**2))
 
 #launch loads
 stress = m*g*gforce/A
